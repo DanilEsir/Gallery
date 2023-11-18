@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery 3D</title>
+    <style>
+        body {
+            background-color: #223;
+            perspective: 2000px;
+            padding: 300px;
+            padding-left: 500px;
+        }
+
+        #gallery {
+            width: 500px;
+            height: 500px;
+            border: 8px solid orange;
+            background-color: orange;
+            display: inline-block;
+            vertical-align: top;
+            transform: rotateX(50deg) rotateY(30deg);
+        }
+        #gallery div {
+            display: inline-block;
+            vertical-align: top;
+        }
+        #gallery div:nth-child(2) {
+            float: right;
+            
+        }
+        #gallery div:nth-child(3) {
+            margin-top: 4px;
+        }
+        #gallery div:nth-child(4) {
+            margin-top: 4px;
+            margin-left: 4px;
+        }
+        #gallery div:nth-child(5) {
+            margin-top: 4px;
+        }
+
+        #gallery-2 {
+            width: 500px;
+            height: 500px;
+            border: 8px solid orange;
+            display: inline-block;
+            transform: rotateX(-310deg) rotateY(330deg);
+            margin-left: -70px;
+        }
+        #gallery-2 div {
+            display: inline-block;
+            vertical-align: top;
+        }
+        #gallery-2 div:nth-child(2) {
+            margin-left: -4px;
+        }
+        #gallery-2 div:nth-child(3) {
+            margin-left: -4px;
+        }
+        #gallery-2 div:nth-child(4) {
+            margin-top: -154px;
+        }
+        #gallery-2 div:nth-child(5) {
+            margin-top: -22px;
+        }
+        
+
+
+
+        
+    </style>
+</head>
+<body>
+    
+    
+    <div id="gallery">
+        <div><img src="189-396x150.jpg" alt=""></div>
+        <div><img src="574-96x300.jpg" alt=""></div>
+        <div><img src="997-196x142.jpg" alt=""></div>
+        <div><img src="448-192x142.jpg" alt=""></div>
+        <div><img src="832-500x192.jpg" alt=""></div>
+    </div>
+    <div id="gallery-2">
+        <div><img src="797-200x150.jpg" alt=""></div>
+        <div><img src="539-200x150.jpg" alt=""></div>
+        <div><img src="268-100x300.jpg" alt=""></div>
+        <div><img src="1073-400x150.jpg" alt=""></div>
+        <div><img src="334-500x200.jpg" alt=""></div>
+    </div>
+</body>
+</html>
